@@ -19,6 +19,21 @@
 .largeur-30{
     width: 30%;
 }
+.border-radius-1{
+    border-radius: 0px 50px 0px 0px;
+
+}
+.border-radius-2{
+    border-radius: 50px 0px 0px 0px;
+
+}
+.border-radius-3{
+    border-radius: 0px 0px 50px 0px;
+
+}
+.border-radius-4{
+border-radius: 0px 0px 0px 50px;
+}
 
 .marginBottom-30{
     margin-bottom: 30px;
@@ -139,6 +154,9 @@
     justify-content: space-around;
 }
 
+.justify-right{
+    justify-content: right;
+}
 .justify-center {
     justify-content: center;
 }
@@ -146,14 +164,22 @@
 .align-center {
     align-items: center;
 }
-
+.gap-16{
+    gap: 16px;
+}
 /* Classes de dimensions */
 .w-100 {
     width: 100%;
 }
+.w-40{
+    width: 40%;
+}
 
 .w-48 {
     width: 48%;
+}
+.w-45 {
+    width: 45%;
 }
 
 .w-50 {
@@ -215,7 +241,7 @@ h1 {
 }
 
 .card {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.264);
+   
     border-radius: 20px;
     padding: 20px;
 }
@@ -224,9 +250,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-.container {
+.container-1000 {
     max-width: 1000px;
-    width: 100%;
+   width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -260,7 +286,18 @@ h2 {
 }
 
 .backimg{
-    background-image:url(asset/assets-interno/Banner.jpg);
+    background-image:url('asset/assets-interno/Banner.jpg');
     background-repeat: no-repeat;
     border-radius: 15px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.bg-beige{
+    background-color: rgb(243, 221, 192);
 }
